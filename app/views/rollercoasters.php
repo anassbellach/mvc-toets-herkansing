@@ -8,30 +8,32 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Fruit</title>
+    <title>RollerCoasters</title>
   </head>
   <body>
 
   <div class="container">
-        <h1 class="text-center mt-5 border-bottom border-dark">FRUIT PAGE</h1>
+        <h1 class="text-center mt-5 border-bottom border-dark">RollerCoasters Page</h1>
 
         <table class="table mt-5">
             <thead>
                 <tr>
-                <th scope="col">Id</th>
-                <th scope="col">Naam</th>
-                <th scope="col">Kleur</th>
-                <th scope="col">Prijs</th>
+                <th scope="col">id</th>
+                <th scope="col">nameRollerCoaster</th>
+                <th scope="col">nameAmusementPark</th>
+                <th scope="col">country</th>
+                <th scope="col">topspeed</th>
+                <th scope="col">height</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                 </tr>
-                <?= $data["fruit Rows"] ?>
+                <?= $data["rollercoasterRows"] ?>
             </tbody>
         </table>
 
-        <a type="button" href="http://mvc-toets.org/" class="btn btn-secondary">Go Back</a>
+        <a type="button" href="http://mvc-toets-herkansing.org/rollercoasters/index" class="btn btn-secondary">Go Back</a>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

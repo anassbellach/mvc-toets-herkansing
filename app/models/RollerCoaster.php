@@ -1,14 +1,14 @@
 <?php
 
-class Fruit {
+class RollerCoaster {
     private $db;
 
     public function __construct() {
         $this->db = new Database;
     }
 
-    public function getFruit() {
-        $this->db->query("SELECT * FROM `fruits`");
+    public function getRollerCoasters() {
+        $this->db->query("SELECT * FROM `rollercoaster`");
         
         $this->db->execute();
         $result = $this->db->resultSet();
